@@ -1,0 +1,64 @@
+
+<HTML>
+
+<HEAD>
+  <TITLE>Test</TITLE>
+</HEAD>
+
+<BODY>
+
+  <p>Test</p>
+
+  <br>
+
+  <center>
+  
+  <form method=GET action="ValidateInput.php">        
+
+    <TABLE border=0 cellpadding=1 cellspacing=0>
+
+      <TR align=center>
+        <TD colspan=4><BR><b>Enter Rectangle Dimensions and Date</b><br><br></TD>
+      </TR>
+      <TR>
+        <TD align=right><FONT color="#ff0000">&nbsp;</FONT><FONT size=2><b>Height:</b></FONT></TD>
+        <TD colspan=3><INPUT name="txtHeight" value="0" size=14 maxlength=10/></TD>
+      </TR>
+		<TR>
+        <TD align=right><FONT color="#ff0000">&nbsp;</FONT><FONT size=2><b>Width:</b></FONT></TD>
+        <TD colspan=3><INPUT name="txtWidth" value="0" size=14 maxlength=10/></TD>
+      </TR>
+ 
+      <TR>
+        <TD align=right><FONT size=2><b>Date:</b></FONT></TD>
+        <TD colspan=3><INPUT name="txtDate" size=36 maxlength=30 value="01/01/2011" /></TD>
+      </TR> 
+        
+      <TR>
+        <TD align=right><FONT color="#ff0000">&nbsp;</FONT><FONT size=2><b>Increase Day:</b></FONT></TD>
+        <TD colspan=3><INPUT name="txtIncDay" value="00" size=14 maxlength=10></TD>
+      </TR>
+	  
+		<TR>
+        <TD align=right><FONT color="#ff0000">&nbsp;</FONT><FONT size=2><b>Increase Month:</b></FONT></TD>
+        <TD colspan=3><INPUT name="txtIncMonth" value="00" size=14 maxlength=10></TD>
+      </TR>
+       <TR>
+        <TD align=right><FONT color="#ff0000">&nbsp;</FONT><FONT size=2><b>Increase Year:</b></FONT></TD>
+        <TD colspan=3><INPUT name="txtIncYear" value="00" size=14 maxlength=10></TD>
+      </TR>     
+      
+        
+    </TABLE>
+
+    <br>
+      
+    <input type="submit" value="Cacl" name="btnCals"><input type="reset" value="Clear" name="btnClear">
+        
+  </form>
+  
+  </center>
+
+</BODY>
+
+</HTML>
